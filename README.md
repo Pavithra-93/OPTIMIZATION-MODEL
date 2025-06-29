@@ -29,3 +29,7 @@ When a request is received, the app first validates that input features were pro
 This approach demonstrates a true end-to-end pipeline, beginning with raw data, going through preprocessing and training, and finishing with deployment as a web service. The model can now be queried by any system capable of making HTTP POST requests. For example, you can test it using tools such as curl or Postman, or even build a frontend interface that connects to the API.
 
 Overall, this code encapsulates all the essential parts of a professional data science project: loading data, transforming it into features the model can understand, training and validating a classifier, persisting the trained components, and creating an accessible prediction endpoint. This pattern is widely applicable across domains, from finance to healthcare to e-commerce.
+
+### OUTPUT:
+
+![Image](https://github.com/user-attachments/assets/1e8a0296-02fc-49e6-8c0b-f5dd26ec4938)
